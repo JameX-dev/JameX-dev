@@ -1,0 +1,108 @@
+:root {
+    --bg-color: #222327;
+    --text-color: #fff;
+    --main-color: #1e293b;
+}
+
+body {
+    color: var(--text-color);
+
+}
+
+.imagen{
+    width: 160px;
+    height: 50px;
+    padding-right: 35%;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    margin-left: 10px;
+    font-size: 25px;
+    font-weight: 550;
+    
+    
+}
+
+header {
+    position: relative;
+    width: 100vh;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    background-color: transparent;
+    padding: 30px 3%;
+    transform: all .50s ease;
+}
+
+.nav{
+    border-bottom: 2px solid white;
+    margin: 0 50px;
+ 
+}
+
+.navbar {
+    display: flex;
+    padding-left: 60%;
+    padding-bottom: -2px;
+    
+}
+
+.navbar a {
+    
+    color: var(--text-color);
+    font-size: 1.4em;
+    font-weight: 50;
+    padding: 5px 0;
+    /* margin: 0 30px; */
+   
+}
+
+.link-gradient{
+    font-size: 32px;
+    margin-left: 16px;
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+
+/* .link-gradient:after{
+    content: '';
+    height: 2px;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(to top right, #B066FE, #63E2FF);
+
+
+} */
+
+.link-gradiente:after{
+    content: '';
+    height: 2px;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(to top right, #B066FE, #63E2FF);
+
+    
+
+
+}
+
+.link-gradient:hover {
+
+  
+    background-image: linear-gradient(to top right, #B066FE, #63E2FF);
+    -webkit-background-clip: text; /*el color de fondo se pegue al texto*/
+    background-clip:text ; /*para soportar distintas verciones de navegadores*/
+    -webkit-text-fill-color: transparent;
+
+}

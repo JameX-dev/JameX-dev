@@ -460,6 +460,9 @@
         font-size: 35px;
         padding: 3%;
     }
+    .im2{
+        margin-left: -9%;
+    }
 }
 
 @media (max-width: 455px) {
@@ -491,6 +494,14 @@
 }
 
 @media (max-width: 425px) {
+
+    .titulo{
+        font-size: 45px;
+    }
+
+    .caja{
+        padding-right:  10px;
+    }
     .box1 {
         width: 350px;
         height: 63px;
@@ -510,4 +521,50 @@
         margin-left: 7%;
 
     }
+
+    .esfera{
+        position: absolute;
+        margin-top: 1%;
+        margin-left: 60%;
+    }
+    .esfera2{
+        margin-top: 14%;
+        margin-left: 30%;
+
+        width: 70px;
+        height: 70px;
+
+        
+    }
+
+    .esfera3{
+        width: 70px;
+        height: 70px;
+    }
+
+    .esfera4{
+        margin-top: 60%;
+    }
+
+    .esfera5{
+        margin-top: 48%;
+        margin-left: 55%;
+
+        width: 60px;
+        height: 60px;
+    }
+    .esfera6{
+        margin-top: 45%;
+        width: 70px;
+        height: 70px;
+    }
+
+    .esfera6 p{
+        font-size: 13px;
+    }
+    .esfera2 p{
+        font-size: 30px;
+    }
 }
+
+

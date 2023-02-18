@@ -44,10 +44,10 @@
     .navbar {
         position: absolute;
         top: -250%;
-        right: 2%;
+        right: 0%;
         width: 270px;
         height: 29vh;
-        background: var(--main-color);
+        background: black;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -374,6 +374,39 @@
 
     }
 
+    .titulo{
+        margin-top: 30%;
+    }
+    .esfera{
+        position: absolute;
+        margin-left: 60%;
+    }
+
+    .esfera2{
+        position: absolute;
+        margin-top: 8%;
+    }
+
+    .esfera3{
+        position: absolute;
+        margin-top: -20%;
+    }
+
+    .esfera4{
+        position: absolute;
+        margin-top: 25%;
+        margin-left: 70%;
+    }
+    .esfera5{
+        position: absolute;
+        margin-top: 28%;
+    }
+
+    .esfera6{
+        position: absolute;
+        margin-top: 20%;
+    }
+
 }
 
 @media (max-width: 490px) {
@@ -457,4 +490,24 @@
     }
 }
 
-@media (max-width: 425px) {}
+@media (max-width: 425px) {
+    .box1 {
+        width: 350px;
+        height: 63px;
+        border-radius: 500px;
+        text-align: center;
+        font-size: 0.8em;
+        margin-left: 7%;
+
+    }
+
+    .box2 {
+        width: 350px;
+        height: 63px;
+        border-radius: 500px;
+        text-align: center;
+        font-size: 0.8em;
+        margin-left: 7%;
+
+    }
+}

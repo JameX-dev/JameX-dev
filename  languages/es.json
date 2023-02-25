@@ -1,0 +1,51 @@
+{
+    "navbar": {
+        "home": "Inicio",
+        "about_me":"Sobre Mi",
+        "projects":"Proyectos",
+        "technologies": "Tecnologias",
+        "resume": "CV"
+    },
+    "title":{
+        "first-title": "Desarrollador Web Full Stack"
+    },
+
+    "section-title":{
+        "front-title": "Desarrollo Frontend",
+        "back-title": "Desarrollo Backend",
+        "about-me": "Sobre Mi",
+        "projects": "Proyectos Realizados"
+    },
+
+    "section1":{
+        "html-title":"Uso de HTML y CSS puro",
+        "html-content": "Desarrollo de interfaces web modernas, intuitivas y responsivas utilizando código puro de HTML y css.",
+        "frw-title":"Uso de Frameworks",
+        "frw-content": "Creación de interfaces web con el uso de Tailwindcss, React y Bootstrap.",
+        "js-content":"Manejo de JavaScript intermedio, consumo de APIs, conexión con API rest, manejo del DOM y eventos."
+    },
+
+    "section2":{
+        "node-content": "Experiencia creando aplicaciones web con Node JS y express js creando APIs completas e integración de API con frontend.",
+        "db-title": "Bases de Datos",
+        "db-content": "Experiencia trabajando con bases de datos relacionales como MYSQL, bases de datos no relacionales como Mongo DB.",
+        "ms-title":"Microservicios",
+        "ms-content": "Experiencia creando aplicaciones web basadas en microservicios y estructuración de componentes web para que el código sea mantenible y escalable."
+    },
+
+    "about":{
+        "about-me":"Soy Jaime Navarro ingeniero en sistemas computacionales enfocado al desarrollo web y aficionado a la tecnología, desde niño me ha causado curiosidad el saber cómo funcionaban las computadoras, lo cual me llevó a investigar y aprender por mi cuenta muchas cosas las cuales me han llevado a ser programador web y poner toda mi creatividad, disciplina y perfección en los trabajos que hago."
+    },
+
+    "cards":{
+        "crd1":"Sitio web de una microempresa sobre el desarrollo de páginas web a medida para la publicidad de algún negocio.",
+        "crd2": "Sitio web publicitario de una microempresa, sitio en desarrollo.",
+        "crd3-title": "Proximamente",
+        "crd3":"Proximamente."
+    },
+
+    "footer":{
+        "contact": "Contactame",
+        "sotial": "Redes Sociales"
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "navbar": {
+        "home": "Home",
+        "about_me":"About Me",
+        "projects":"Projects",
+        "technologies": "Technologies",
+        "resume": "Resume"
+    },
+    "title":{
+        "first-title": "Full Stack Web Developer"
+    },
+
+    "section-title":{
+        "front-title": "Front End Developer",
+        "back-title": "Backend Developer",
+        "about-me": "About Me",
+        "projects": "Created Projects"
+    },
+
+    "section1":{
+        "html-title":"Pure use of HTML and CSS",
+        "html-content": "Development of modern, intuitive and responsive web interfaces using pure HTML and css code.",
+        "frw-title":"Use of Frameworks",
+        "frw-content": "Creation of web interfaces with the use of Tailwindcss, React and Bootstrap.",
+        "js-content":"Intermediate JavaScript handling, API consumption, connection with rest API, DOM and event handling."
+    },
+
+    "section2":{
+        "node-content": "Experience creating web applications with Node JS and express js, creating complete APIs and API integration with frontend.",
+        "db-title": "Databases",
+        "db-content": "Experience working with relational databases like MYSQL, non-relational databases like Mongo DB.",
+        "ms-title":"Microservices",
+        "ms-content": "Experience creating web applications based on microservices and structuring web components that the code is maintainable and scalable."
+    },
+
+    "about":{
+        "about-me":"I am Jaime Navarro, a computer systems engineer, i'm focused on web development and i am an fan of technology. Since I was a child, I have been curious about how computers work, which led me to investigate and learn many things on my own, which have led me to be a web programmer and i like to put all my creativity, discipline and perfection in the work I do."
+    },
+
+    "cards":{
+        "crd1":"Website of a startup about the development of custom web pages for the advertising of a business.",
+        "crd2": "Advertising website of a microenterprise, site under development.",
+        "crd3-title": "Coming soon",
+        "crd3":"Coming soon"
+    },
+
+    "footer":{
+        "contact": "Contact Me",
+        "sotial": "Social Media"
+    }
+}

@@ -12,6 +12,7 @@
     --text-color: #fff;
     /* --main-color: #1e293b; */
 }
+
 /* 
 body {
     min-height: 100vh;
@@ -34,7 +35,7 @@ header {
     transition: all .50s ease;
 }
 
-.imagen{
+.imagen {
     width: 100px;
 }
 
@@ -65,7 +66,7 @@ header {
     /* transition: all .50s ease; */
 }
 
-.link-gradient{
+.link-gradient {
     font-size: 32px;
     margin-left: 16px;
     text-decoration: none;
@@ -73,7 +74,7 @@ header {
     position: relative;
 }
 
-.link-gradiente:after{
+.link-gradiente:after {
     content: '';
     height: 2px;
     position: absolute;
@@ -84,41 +85,40 @@ header {
 
 }
 
-/* .navbar :hover {
-    background-image: linear-gradient(to top right, #B066FE, #63E2FF);
-    -webkit-background-clip: text; /*el color de fondo se pegue al texto
-    background-clip:text ; /*para soportar distintas verciones de navegadores
-    -webkit-text-fill-color: transparent;
 
-
-} */
 
 
 
 .link-gradient:hover {
 
-  
+
     background-image: linear-gradient(to top right, #B066FE, #63E2FF);
-    -webkit-background-clip: text; /*el color de fondo se pegue al texto*/
-    background-clip:text ; /*para soportar distintas verciones de navegadores*/
+    -webkit-background-clip: text;
+    /*el color de fondo se pegue al texto*/
+    background-clip: text;
+    /*para soportar distintas verciones de navegadores*/
     -webkit-text-fill-color: transparent;
 
 }
 
 .navbar a.active {
     background-image: linear-gradient(to top right, #B066FE, #63E2FF);
-    -webkit-background-clip: text; /*el color de fondo se pegue al texto*/
-    background-clip:text ; /*para soportar distintas verciones de navegadores*/
+    -webkit-background-clip: text;
+    /*el color de fondo se pegue al texto*/
+    background-clip: text;
+    /*para soportar distintas verciones de navegadores*/
     -webkit-text-fill-color: transparent;
 }
 
 
 
-.titulo{
+.titulo {
     font-size: 120px;
     background-image: linear-gradient(to top right, #B066FE, #63E2FF);
-    -webkit-background-clip: text; /*el color de fondo se pegue al texto*/
-    background-clip:text ; /*para soportar distintas verciones de navegadores*/
+    -webkit-background-clip: text;
+    /*el color de fondo se pegue al texto*/
+    background-clip: text;
+    /*para soportar distintas verciones de navegadores*/
     -webkit-text-fill-color: transparent;
 }
 
@@ -143,126 +143,12 @@ header {
     display: none;
 }
 
-
-
-/* 
-
-
-
-/* primer media queri no importante */
-
-/* 
-
-@media (max-width: 1280px) {
-    header {
-        padding: 14px 2%;
-        transition: .2s;
-    }
-
-    .navbar a {
-        padding: 5px 0;
-        margin: 0px 20px;
-    }
+.flags {
+    display: flex;
+    
+    
 }
 
-@media (max-width: 1120px) {
-    .logo {
-        margin-left: 1px;
-        width: 38%;
-    }
+.flags_item{
+    margin: 3px;
 }
-@media (max-width: 1000px) {
-    .logo {
-        margin-left: 1px;
-        width: 49%;
-    }
-
-
-    #menu-icon {
-        display: block;
-    }
-
-    .navbar {
-        position: absolute;
-        top: 100%;
-        right: -100%;
-        width: 270px;
-        height: 29vh;
-        background: var(--main-color);
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        border-radius: 10px;
-        transition: all .50s ease;
-    }
-
-    .navbar a {
-        display: block;
-        margin: 12px 0;
-        padding: 0px 25px;
-        transition: all .50s ease;
-    }
-
-    .navbar a:hover {
-        color: var(--text-color);
-        transform: translateY(5px);
-    }
-
-    .navbar a.active {
-        color: var(--text-color);
-    }
-
-    .navbar.open {
-        right: 2%;
-    }
-}
-
-@media (max-width: 700px) {
-
-    .logo {
-        display: flex;
-        align-items: center;
-        width: 200px;
-        margin-left: -0px;
-
-    }
-
-    #menu-icon {
-        display: block;
-    }
-
-    .navbar {
-        position: absolute;
-        top: -500%;
-        right: 2%;
-        width: 270px;
-        height: 29vh;
-        background: var(--main-color);
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        border-radius: 10px;
-        transition: all .50s ease;
-    }
-
-    .navbar a {
-        display: block;
-        margin: 12px 0;
-        padding: 0px 25px;
-        transition: all .50s ease;
-    }
-
-    .navbar a:hover {
-        color: var(--text-color);
-        transform: translateY(5px);
-    }
-
-    .navbar a.active {
-        color: var(--text-color);
-    }
-
-    .navbar.open {
-        top: 100%;
-    }
-} */
- 

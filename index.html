@@ -20,8 +20,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 
     <!-- icono de menu -->
-    <link rel="stylesheet"
-    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/navbar.css">
@@ -39,23 +38,43 @@
         <a class="logo" href="index.html"></a>
 
         <ul class="navbar">
-            <li><a class="link-gradient active" href="">Inicio</a></li>
-            <li><a class="link-gradient" href="#sobreMi">Sobre Mi</a></li>
-            <li><a class="link-gradient" href="#proyectos">Proyectos</a></li>
-            <li><a class="link-gradient" href="#tecnologias">Tecnologias</a></li>
-            <li><a class="link-gradient" href="/static/cv.pdf" target="_blank">CV</a></li>
+            <li><a class="link-gradient active" href="index.html" data-section="navbar" data-value="home">Inicio</a>
+            </li>
+            <li><a class="link-gradient" href="#sobreMi" data-section="navbar" data-value="about_me">Sobre Mi</a></li>
+            <li><a class="link-gradient" href="#proyectos" data-section="navbar" data-value="projects">Proyectos</a>
+            </li>
+            <li><a class="link-gradient" href="#tecnologias" data-section="navbar"
+                    data-value="technologies">Tecnologias</a></li>
+            <li><a class="link-gradient" href="/static/cv.pdf" target="_blank" data-section="navbar"
+                    data-value="resume">CV</a></li>
         </ul>
         <div class="main">
             <div class="bx bx-menu" id="menu-icon"></div>
         </div>
 
+        <div id="flags" class="flags">
+            <div class="flags_item" data-languague="es">
+                <p>ES </p>
+            </div>
+
+
+            <div class="flags_item" data-languague="en">
+                <p> EN</p>
+            </div>
+        </div>
+
+        
+
+
+
+
     </header>
 
-    <div class="caja" data-aos="zoom-in"  data-aos-duration="3000">
+    <div class="caja" data-aos="zoom-in" data-aos-duration="3000">
         <div class="esfera esfR"><img src="/static/css3.png" alt=""></div>
         <div class="esfera4 esfR"><img src="/static/node.png" alt=""></div>
         <div class="esfera3 esfR"><img src="/static/html5.webp" alt=""></div>
-        <h1 class="titulo">Desarrollador Web Full Stack</h1>
+        <h1 class="titulo" data-section="title" data-value="first-title">Desarrollador Web Full Stack</h1>
         <div class="esfera2 esfR">
             <p>JS</p>
         </div>
@@ -66,22 +85,23 @@
     </div>
 
     <div class="section1" id="tecnologias">
-        <div class="box1"  data-aos="fade-down"  data-aos-duration="3000">
-            <h1>Desarrollo Frontend</h1>
+        <div class="box1" data-aos="fade-down" data-aos-duration="3000">
+            <h1 data-section="section-title" data-value="front-title">Desarrollo Frontend</h1>
         </div>
         <div class="section-content">
             <!-- <img class="im" src="/static/z3.png" alt=""> -->
 
 
-            <div class="text" data-aos="fade-up"  data-aos-duration="3000">
+            <div class="text" data-aos="fade-up" data-aos-duration="3000">
                 <div class="iconoCaja">
                     <span class="material-symbols-outlined icono3">
                         code
                     </span>
                 </div>
-                <h2>Uso de HTML y CSS puro</h2>
+                <h2 data-section="section1" data-value="html-title">Uso de HTML y CSS puro</h2>
                 <br>
-                <p class="textcaja">Desarrollo de interfaces web modernas, intuitivas y responsivas utilizando código
+                <p class="textcaja" data-section="section1" data-value="html-content">Desarrollo de interfaces web
+                    modernas, intuitivas y responsivas utilizando código
                     puro de HTML y css.</p>
                 <br>
                 <br>
@@ -91,9 +111,10 @@
                         webhook
                     </span>
                 </div>
-                <h2>Uso de Frameworks</h2>
+                <h2 data-section="section1" data-value="frw-title">Uso de Frameworks</h2>
                 <br>
-                <p class="textcaja">Creación de interfaces web con el uso de Tailwindcss, React y Bootstrap.</p>
+                <p class="textcaja" data-section="section1" data-value="frw-content">Creación de interfaces web con el
+                    uso de Tailwindcss, React y Bootstrap.</p>
                 <br>
                 <br>
 
@@ -105,7 +126,8 @@
 
                 <h2>JavaScript </h2>
                 <br>
-                <p class="textcaja">Manejo de JavaScript intermedio, consumo de APIs, conexión con API rest, manejo del
+                <p class="textcaja" data-section="section1" data-value="js-content">Manejo de JavaScript intermedio,
+                    consumo de APIs, conexión con API rest, manejo del
                     DOM y eventos.</p>
                 <br>
 
@@ -115,7 +137,7 @@
 
             <div class="imagenes">
                 <div class="linea"></div>
-                <img class="im" src="/static/front.svg" alt="img frontend" data-aos="zoom-in"  data-aos-duration="3000">
+                <img class="im" src="/static/front.svg" alt="img frontend" data-aos="zoom-in" data-aos-duration="3000">
 
             </div>
 
@@ -127,12 +149,12 @@
     </div>
 
     <div class="section2">
-        <div class="box2" data-aos="fade-right"  data-aos-duration="3000">
-            <h1>Desarrollo Backend</h1>
+        <div class="box2" data-aos="fade-right" data-aos-duration="3000">
+            <h1 data-section="section-title" data-value="back-title">Desarrollo Backend</h1>
         </div>
 
         <div class="section-content">
-            <div class="text" data-aos="fade-right"  data-aos-duration="3000">
+            <div class="text" data-aos="fade-right" data-aos-duration="3000">
 
                 <div class="iconoCaja">
                     <span class="material-symbols-outlined icono3">
@@ -141,7 +163,8 @@
                 </div>
                 <h2>Node JS</h2>
                 <br>
-                <p>Experiencia creando aplicaciones web con Node JS y express js creando APIs completas e integración de
+                <p data-section="section2" data-value="node-content">Experiencia creando aplicaciones web con Node JS y
+                    express js creando APIs completas e integración de
                     API con frontend.</p>
                 <br><br>
 
@@ -150,9 +173,10 @@
                         database
                     </span>
                 </div>
-                <h2>Bases de Datos</h2>
+                <h2 data-section="section2" data-value="db-title">Bases de Datos</h2>
                 <br>
-                <p>Experiencia trabajando con bases de datos relacionales como MYSQL, bases de datos no relacionales
+                <p data-section="section2" data-value="db-content">Experiencia trabajando con bases de datos
+                    relacionales como MYSQL, bases de datos no relacionales
                     como Mongo DB.</p>
                 <br><br>
 
@@ -162,16 +186,18 @@
                         dns
                     </span>
                 </div>
-                <h2>Microservicios</h2>
+                <h2 data-section="section2" data-value="ms-title">Microservicios</h2>
                 <br>
-                <p>Experiencia creando aplicaciones web basadas en microservicios y estructuración de componentes web
+                <p data-section="section2" data-value="ms-content">Experiencia creando aplicaciones web basadas en
+                    microservicios y estructuración de componentes web
                     para que el código sea mantenible y escalable.</p>
             </div>
 
 
             <div class="imagenes">
                 <div class="linea"></div>
-                <img class="im im2" src="/static/back.svg" alt="imagen backend" data-aos="fade-up"  data-aos-duration="3000">
+                <img class="im im2" src="/static/back.svg" alt="imagen backend" data-aos="fade-up"
+                    data-aos-duration="3000">
 
             </div>
         </div>
@@ -179,56 +205,58 @@
 
     <div class="section">
 
-        <div class="titleAbout" id="sobreMi" data-aos="zoom-in"  data-aos-duration="3000">
-            <h1> Sobre Mi</h1>
+        <div class="titleAbout" id="sobreMi" data-aos="zoom-in" data-aos-duration="3000">
+            <h1 data-section="section-title" data-value="about-me"> Sobre Mi</h1>
         </div>
         <br>
 
 
-        <div class="textAbout" data-aos="zoom-in"  data-aos-duration="3000">
-            <p>Soy Jaime Navarro ingeniero en sistemas computacionales enfocado al desarrollo web y aficionado a la
+        <div class="textAbout" data-aos="zoom-in" data-aos-duration="3000">
+            <p data-section="about" data-value="about-me">Soy Jaime Navarro ingeniero en sistemas computacionales
+                enfocado al desarrollo web y aficionado a la
                 tecnología, desde niño me ha causado curiosidad el saber cómo funcionaban las computadoras, lo cual me
                 llevó a investigar y aprender por mi cuenta muchas cosas las cuales me han llevado a ser programador web
                 y poner toda mi creatividad, disciplina y perfección en los trabajos que hago.</p>
             <div class="lineaH"></div>
         </div>
 
-        <div class="titleAbout" id="proyectos" data-aos="zoom-in-up"  data-aos-duration="3000">
-            <h1>Proyectos Realizados</h1>
+        <div class="titleAbout" id="proyectos" data-aos="zoom-in-up" data-aos-duration="3000">
+            <h1 data-section="section-title" data-value="projects">Proyectos Realizados</h1>
         </div>
 
-        <div class="cards" >
+        <div class="cards">
 
 
             <div class="card ca">
-                <a  href="https://www.codexpine.com/" target="_blank">
+                <a href="https://www.codexpine.com/" target="_blank">
                     <p class="link deg degH cd1 act">CodeX Pine</p>
                 </a>
                 <br><br>
-                <p class="deg act">
-                    Sitio web de una microempresa sobre el desarrollo de páginas web a medida para la publicidad de algún negocio.
+                <p class="deg act" data-section="cards" data-value="crd1">
+                    Sitio web de una microempresa sobre el desarrollo de páginas web a medida para la publicidad de
+                    algún negocio.
                 </p>
             </div>
 
 
             <div class="card ca">
-                <a  href="" target="_blank">
+                <a href="" target="_blank">
                     <p class="link deg degH cd2 act">Forrejera la Palma</p>
                 </a>
                 <br><br>
-                <p class="deg act">
+                <p class="deg act" data-section="cards" data-value="crd2">
                     Sitio web publicitario de una microempresa, sitio en desarrollo.
                 </p>
             </div>
 
 
             <div class="card ca ca3">
-                <a  href="" target="_blank">
-                    <p class="link deg degH act cd3">Proximamente</p>
+                <a href="" target="_blank">
+                    <p class="link deg degH act cd3" data-section="cards" data-value="crd3-title">Proximamente</p>
                 </a>
                 <br><br>
-                <p class="deg act">
-                    Sitio web en desarrollo.
+                <p class="deg act" data-section="cards" data-value="crd3">
+                    Proximamente.
                 </p>
             </div>
 
@@ -245,29 +273,33 @@
             <ul>
                 <li>
                     <a href="contactanos.html">
-                        <h3>Contactame</h3>
+                        <h3 data-section="footer" data-value="contact">Contactame</h3>
                     </a>
                 </li>
-                <li><a href="mailto:james114jx@gmail.com" target="_blank"> <i class="bi bi-envelope-fill"></i> james114jx@gmail.com</a></li>
-                <li><a href="https://www.linkedin.com/in/jaime-n-7b6874110" target="_blank"> <i class="bi bi-linkedin"></i> Linkedin</a></li>
+                <li><a href="mailto:james114jx@gmail.com" target="_blank"> <i class="bi bi-envelope-fill"></i>
+                        james114jx@gmail.com</a></li>
+                <li><a href="https://www.linkedin.com/in/jaime-n-7b6874110" target="_blank"> <i
+                            class="bi bi-linkedin"></i> Linkedin</a></li>
                 <li><a href="https://github.com/JameX-dev" target="_blank"> <i class="bi bi-github"></i> GitHub</a></li>
-                
+
 
             </ul>
 
             <ul>
                 <li><a href="">
-                        <h3>Redes sociales</h3>
+                        <h3 data-section="footer" data-value="sotial">Redes sociales</h3>
                     </a></li>
-                <li><a href="https://twitter.com/JameX114jx" target="_blank"> <i class="bi bi-twitter"></i> Twitter</a></li>
-                <li><a href="https://api.whatsapp.com/send?phone=+527751694284" target="_blank"><i class="bi bi-whatsapp"></i> WhatsApp</a></li>
+                <li><a href="https://twitter.com/JameX114jx" target="_blank"> <i class="bi bi-twitter"></i> Twitter</a>
+                </li>
+                <li><a href="https://api.whatsapp.com/send?phone=+527751694284" target="_blank"><i
+                            class="bi bi-whatsapp"></i> WhatsApp</a></li>
             </ul>
 
-          
+
         </div>
 
 
-       
+
 
 
 
@@ -278,7 +310,7 @@
 
     <script>
         AOS.init();
-      </script>
+    </script>
 
 
 

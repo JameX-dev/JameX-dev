@@ -11,13 +11,30 @@ menu.onclick = () =>{
 }
 
 const flagElement = document.getElementById("flags")
-
+const direccion = document.getElementById("direccion")
+const enlace = document.getElementById("direccion");
 const textsToChange = document.querySelectorAll("[data-section]");
+const idioma = document.getElementById("idiomas")
+
+idioma.addEventListener('change', ()=>{
+
+    const lan = idioma.value
+    changeLanguage(lan)
+})
+
+
 
 const changeLanguage = async (languague)=>{
    
     const requestJson = await fetch(`./ languages/${languague}.json`);
     const texts = await requestJson.json();
+   
+    if(languague =="es"){
+        enlace.href = "/static/cv.pdf";
+    }else if(languague=="en"){
+        
+        enlace.href = "/static/resume.pdf";
+    }
 
     
     for(const textToChange of textsToChange){
@@ -28,6 +45,7 @@ const changeLanguage = async (languague)=>{
     }
    
 }
-flagElement.addEventListener("click", (e) =>{
-    changeLanguage(e.target.parentElement.dataset.languague)
-});
+// flagElement.addEventListener("click", (e) =>{
+//     changeLanguage(e.target.parentElement.dataset.languague)
+// });
+

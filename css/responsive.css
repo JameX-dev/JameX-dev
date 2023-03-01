@@ -463,6 +463,12 @@
     /* .im2{
         margin-left: -9%;
     } */
+
+
+#idiomas{
+   margin: 2px;
+    
+}
 }
 
 @media (max-width: 455px) {

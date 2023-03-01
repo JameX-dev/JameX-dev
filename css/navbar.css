@@ -143,6 +143,17 @@ header {
     display: none;
 }
 
+
+#idiomas{
+    border-radius: 7px;
+    border-width: 2px;
+    
+}
+
+
+
+
+
 .flags {
     display: flex;
     
